@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    gap: 15px;
+    border: 1px solid white;
+    width: 100%;
+}
+
+
+header ul {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+}
+
+header ul li {
+    color: white;
+}
+
+
+.font i {
+    font-size: 26px;
+    padding: 10px;
+    color: white;
+}
+
+nav {
+    background-image: url("https://jevelin.shufflehound.com/business/wp-content/uploads/sites/39/2019/11/Rectangle-1-copy-7.jpg?id=10");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav h1 {
+    font-size: 50px;
+}
+
+.nav ul {
+    display: none;
+    gap: 20px;
+    color: white;
+}
+
+.bar i {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.st {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+nav ul button:hover {
+    background-color: rgb(62, 62, 252);
+}
+
+.head h1 {
+    font-size: 30px;
+}
+
+.head h1,
+h2 {
+    text-align: center;
+}
+
+
+nav ul button {
+    background-color: blue;
+    color: white;
+    height: 60px;
+    margin: 26px 0px;
+    padding: 8px 16px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.lii {
+    padding-top: 22px;
+}
+
+
+.st1 {
+    width: 200px;
+    height: 300px;
+}
+
+.st1 i {
+    font-size: 30px;
+    width: 30px;
+    border: 1px solid blue;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.st1 h2 {
+    text-align: left;
+}
+
+
+/* main 1  */
+
+.main {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main1 {
+    font-size: 20px;
+    font-family: math;
+    padding: 12px 64px;
+}
+
+.small1,
+.small2 {
+    font-size: 40px;
+    color: blue;
+    margin-top: 50px;
+}
+
+.small2 {
+    margin-left: 183px;
+    margin-top: -93px;
+}
+
+.main img {
+    border-radius: 20px;
+}
+
+.main button {
+    background-color: blue;
+    color: white;
+    height: 60px;
+    margin: 26px 0px;
+    padding: 8px 16px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* main 2 */
+
+.main3 {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.main2 h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.main3 img {
+    border-radius: 20px;
+}
+.cards {
+    width: 100%;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card1 {
+    height: 300px;
+    border: 1px solid #f0efff;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card1 i {
+    font-size: 56px;
+    color: blue;
+    padding-top: 46px;
+}
+
+.card1 h2 {
+    margin: 2px 3px;
+    font-size: 28px;
+    padding: 26px 45px;
+    font-family: math;
+}
+
+.card1 p {
+    margin: 2px 3px;
+    font-size: 21px;
+    padding: 2px 21px;
+    color: #6d6969;
+}
+
+
+
+
+
+.video {
+    background-image: url("https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_1280.jpg");
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+
+
+.video h1 {
+    margin: 5px 0px;
+    font-size: 7vw;
+    font-family: "Balsamiq Sans";
+    margin: auto;
+}
+
+.video p {
+    margin: 5px 2px;
+    font-size: 5vw;
+}
+
+.video i {
+    font-size: 98px;
+    cursor: pointer;
+    margin-top: 200px;
+}
+
+
+
+
+
+.prices {
+    margin-top: 100px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.first {
+    width: 330px;
+    height: 480px;
+}
+
+
+.first h1 {
+    margin: 3px;
+    font-size: 50px;
+    padding: 5px 1px;
+    padding-top: 99px;
+    font-family: "Balsamiq Sans";
+}
+
+.first p {
+    margin: 0px 0px;
+    font-size: 20px;
+    padding: 32px 4px;
+    color: gray;
+}
+
+.second {
+    margin: 5px 8px;
+    background: #efeeee;
+    border-radius: 15px;
+    padding: 91px 1px;
+    border: 1px solid blue;
+}
+
+
+.second h1 {
+    margin: 2px 57px;
+    margin-top: -91px;
+    font-size: 35px;
+    font-family: "Balsamiq Sans";
+}
+
+.second h2 {
+    color: blue;
+    margin: 2px 20px;
+    font-size: 58px;
+    padding: 1px 43px;
+    text-align: left;
+}
+
+.second p {
+    margin: 0px 0px;
+    font-size: 19px;
+    padding: 12px 60px;
+    color: gray;
+}
+
+.second ul {
+    margin: 0px 0px;
+    padding: 11px 47px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.btn {
+    margin: 3px 57px;
+    font-size: 19px;
+    border: 2px solid blue;
+    padding: 15px 17px;
+    border-radius: 9px;
+}
+
+.btn1 {
+    background-color: blue;
+    color: white;
+}
+
+
+.BG {
+    width: 100%;
+    margin-top: 1300px;
+    background-image: url("https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_640.jpg");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.BG p {
+    font-size: 5vw;
+    color: #b6b1ff;
+    padding: 12px 56px;
+    padding-top: 150px;
+}
+
+.BG h1 {
+    margin: 1px;
+    color: white;
+    font-size: 7vw;
+    font-family: math;
+}
+
+.BG button {
+    margin: 1px;
+    color: white;
+    background: none;
+    padding: 20px 57px;
+    font-size: 24px;
+    border: 2px solid blue;
+    border-radius: 9px;
+}
+
+
+.BG button i {
+    padding: 2px;
+    border: 4px solid white;
+}
+
+.BG button:hover {
+    background-color: blueviolet;
+}
+
+
+
+.footer {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    height: 800px;
+    display: flex;
+    padding: 0px 10px;
+    gap: 20px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.footer h1 {
+    margin: 10px -27px;
+    font-size: 20px;
+}
+
+.part1 {
+    width: 249px;
+    align-items: center;
+}
+
+.part1 i {
+    font-size: 36px;
+}
+
+
+
+footer {
+    margin-top: 5px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    height: 50px;
+    padding-top: 40px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0px 10px;
+    gap: 50px;
+}
+footer ul li:hover{
+    color:blue;
+}
+
+
+@media only screen and (min-width:910px) {
+
+    .nav ul {
+        display: flex;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    header ul {
+        flex-direction: row;
+    }
+
+    .st {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main {
+        flex-direction: row;
+    }
+
+    .main img {
+        width: 566px
+    }
+
+    .main1{
+        padding: 12px 14px;
+    }
+
+    .main3 {
+        flex-direction: row;
+    }
+
+    .main3 img {
+        width: 566px
+    }
+
+    .cards {
+        flex-direction: row;
+    }
+
+    .footer {
+        flex-direction: row;
+        height: 350px;
+    }
+
+    .prices {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .first {
+        width: 450px;
+    }
+
+    .BG {
+        margin-top: 100px;
+    }
+
+    footer ul {
+        flex-direction: row;
+    }
+}
